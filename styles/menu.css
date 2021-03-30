@@ -156,6 +156,45 @@ footer {
   left: -39px;
 }
 
+.aboutUs {
+  width: 100%;
+  background-color: #fff;
+}
+
+.wrapper-aboutUs {
+  max-width: 1200px;
+  padding: 3rem 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-AU {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 34px;
+  letter-spacing: 2px;
+  color: #676767;
+}
+
+.blok-cont {
+  display: flex;
+  padding: 4%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.number-AU {
+  font-size: 92px;
+  font-weight: 500;
+}
+
+.txt-AU {
+  font-size: 20px;
+  font-weight: 500;
+  color: #676767;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
