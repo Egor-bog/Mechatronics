@@ -1,6 +1,6 @@
 .section-keywords {
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   background-image: url("../img/Mers1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,7 +9,7 @@
 
 .wraper-over {
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   /* FF3.6-15 */
@@ -29,8 +29,131 @@
   padding-top: 4rem;
   font-size: 30px;
   color: #fff;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.eurosens {
+  width: 100%;
+  background-image: url("../img/2048x1361_791126_[www.ArtFile.ru].jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left 0px;
+}
+
+.wrapper-eurosens {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: rgba(226, 232, 238, 0.9);
+}
+
+.container-eurosens {
+  width: 90%;
+  height: 90%;
+  margin: 10rem auto;
+  display: flex;
+  font-family: Roboto;
+  font-weight: 600;
+  color: #423d75;
+  text-transform: none;
+}
+
+.container-eurosens h4 {
+  font-size: 28px;
+  min-height: 85px;
+  font-weight: 700;
+}
+
+.container-eurosens ul {
+  margin-top: 3rem;
+}
+
+.container-eurosens li {
+  list-style-type: none;
+  margin-top: 1rem;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.container-eurosens li::before {
+  content: "- ";
+  font-family: monospace;
+  margin-left: -2ch;
+}
+
+.about {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about p {
+  font-size: 24px;
+}
+
+.perfect, .decision {
+  flex-basis: 25%;
+  margin-left: 4%;
+}
+
+a.button-eurosens {
+  display: inline-block;
+  width: 400px;
+  background: #1e83ec;
+  color: #fff;
+  padding: 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+a.button-eurosens:hover {
+  background: #094b92;
+}
+
+footer {
+  background-color: #fff;
+  height: 160px;
+}
+
+.conteiner-footer {
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  transition: all 1s ease;
+}
+
+.icon:hover {
+  background-color: #55a1f3;
+  transition: all 1s ease;
+}
+
+.in {
+  position: relative;
+}
+
+.in-img {
+  position: absolute;
+  top: -7px;
+  left: -39px;
 }
 
 *, *:before, *:after {
@@ -42,8 +165,7 @@
 body {
   background: #bdc3c7;
   line-height: 1.5;
-  font-family: sans-serif;
-  text-transform: uppercase;
+  font-family: Roboto;
   font-size: 18px;
   color: #1e83ec;
 }
@@ -105,6 +227,7 @@ nav > ul {
 nav li {
   list-style: none;
   float: left;
+  font-weight: 600;
 }
 
 nav .dropdown {
@@ -113,7 +236,7 @@ nav .dropdown {
 
 nav li a {
   float: left;
-  padding: 35px;
+  padding: 35px 20px;
 }
 
 nav li a:hover {

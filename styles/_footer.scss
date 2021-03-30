@@ -1,0 +1,43 @@
+footer {
+    background-color: #fff;
+    height: 160px;
+}
+
+.conteiner-footer {
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    -webkit-transition: all 1s ease;;
+    -moz-transition: all 1s ease;;
+    -o-transition: all 1s ease;;
+    transition: all 1s ease;
+}    
+
+.icon:hover {
+    background-color: #55a1f3;
+    -webkit-transition: all 1s ease;;
+    -moz-transition: all 1s ease;;
+    -o-transition: all 1s ease;;
+    transition: all 1s ease;
+}
+
+.in {
+    position: relative;
+}
+
+.in-img {
+    position: absolute;
+    top: -7px;
+    left: -39px;
+}
+

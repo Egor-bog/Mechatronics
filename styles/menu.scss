@@ -1,4 +1,6 @@
 @import "keywords";
+@import "eurosens";
+@import "footer";
 
 
 *, *:before, *:after {   
@@ -11,8 +13,7 @@
 
 body {background:#bdc3c7;
     line-height:1.5;
-    font-family:sans-serif;
-    text-transform:uppercase;
+    font-family:Roboto;
     font-size:18px;
     color:#1e83ec;
 }
@@ -74,7 +75,8 @@ nav>ul {
 
 nav li {
     list-style:none;
-    float:left
+    float:left;
+    font-weight: 600;
 }
 
 
@@ -85,7 +87,7 @@ nav .dropdown {
 
 nav li a {
     float:left;
-    padding:35px
+    padding:35px 20px
 }
 
 nav li a:hover {
